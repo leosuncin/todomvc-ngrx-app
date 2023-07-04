@@ -30,17 +30,17 @@ dependencies:
     specifier: ^16.0.0
     version: 16.0.0(@angular/common@16.0.0)(@angular/core@16.0.0)(@angular/platform-browser@16.0.0)(rxjs@7.8.0)
   '@ngrx/component':
-    specifier: ^15.3.0
-    version: 15.3.0(@angular/common@16.0.0)(@angular/core@16.0.0)(rxjs@7.8.0)
+    specifier: ^16.0.0
+    version: 16.0.0(@angular/common@16.0.0)(@angular/core@16.0.0)(rxjs@7.8.0)
   '@ngrx/effects':
-    specifier: ^15.3.0
-    version: 15.3.0(@angular/core@16.0.0)(@ngrx/store@15.3.0)(rxjs@7.8.0)
+    specifier: ^16.0.0
+    version: 16.0.0(@angular/core@16.0.0)(@ngrx/store@16.0.0)(rxjs@7.8.0)
   '@ngrx/entity':
-    specifier: ^15.3.0
-    version: 15.3.0(@angular/core@16.0.0)(@ngrx/store@15.3.0)(rxjs@7.8.0)
+    specifier: ^16.0.0
+    version: 16.0.0(@angular/core@16.0.0)(@ngrx/store@16.0.0)(rxjs@7.8.0)
   '@ngrx/store':
-    specifier: ^15.3.0
-    version: 15.3.0(@angular/core@16.0.0)(rxjs@7.8.0)
+    specifier: ^16.0.0
+    version: 16.0.0(@angular/core@16.0.0)(rxjs@7.8.0)
   rxjs:
     specifier: ~7.8.0
     version: 7.8.0
@@ -89,14 +89,14 @@ devDependencies:
     specifier: ^17.4.3
     version: 17.4.3
   '@ngrx/eslint-plugin':
-    specifier: ^15.3.0
-    version: 15.3.0(eslint@8.34.0)(typescript@5.1.3)
+    specifier: ^16.0.0
+    version: 16.0.0(eslint@8.34.0)(typescript@5.1.3)
   '@ngrx/schematics':
-    specifier: ^15.3.0
-    version: 15.3.0
+    specifier: ^16.0.0
+    version: 16.0.0
   '@ngrx/store-devtools':
-    specifier: ^15.3.0
-    version: 15.3.0(@ngrx/store@15.3.0)(rxjs@7.8.0)
+    specifier: ^16.0.0
+    version: 16.0.0(@ngrx/store@16.0.0)(rxjs@7.8.0)
   '@types/jasmine':
     specifier: ~4.3.0
     version: 4.3.1
@@ -2640,11 +2640,11 @@ packages:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
     dev: true
 
-  /@ngrx/component@15.3.0(@angular/common@16.0.0)(@angular/core@16.0.0)(rxjs@7.8.0):
-    resolution: {integrity: sha512-n35I8fWe8g/OFOrBN3OwiFcVYp6d80wFLc/OlPQudxBBJJCgPkv6lBQfEAQEZp69PiS4lvZadbdJ/DdZmS0SsQ==}
+  /@ngrx/component@16.0.0(@angular/common@16.0.0)(@angular/core@16.0.0)(rxjs@7.8.0):
+    resolution: {integrity: sha512-wHIpj9spSzYh4yt/wU55zsyEzE+JPVDAewSBoBUCJ0tuQhi5G3Qy36xXxrqNSnlYVC4dSR8ylFcan6gvn3coCw==}
     peerDependencies:
-      '@angular/common': ^15.0.0
-      '@angular/core': ^15.0.0
+      '@angular/common': ^16.0.0
+      '@angular/core': ^16.0.0
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
       '@angular/common': 16.0.0(@angular/core@16.0.0)(rxjs@7.8.0)
@@ -2653,34 +2653,34 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@ngrx/effects@15.3.0(@angular/core@16.0.0)(@ngrx/store@15.3.0)(rxjs@7.8.0):
-    resolution: {integrity: sha512-L+Ie4XFrzYBJOV7hNQvR5hUvG1PSCDd6niwOOJg5nm9zEjSnAxveJ/a3B52pRwge6EYOnrQne97jyArxOzPCJA==}
+  /@ngrx/effects@16.0.0(@angular/core@16.0.0)(@ngrx/store@16.0.0)(rxjs@7.8.0):
+    resolution: {integrity: sha512-l3H/yCwVl8DPmUasOEDthdv9lZMhCSJwBxfSXjUW7gKJVEamP3PSuvExp0ZpW9RULPblgcfTM1TH8VcPAHelQw==}
     peerDependencies:
-      '@angular/core': ^15.0.0
-      '@ngrx/store': 15.3.0
+      '@angular/core': ^16.0.0
+      '@ngrx/store': 16.0.0
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
       '@angular/core': 16.0.0(rxjs@7.8.0)(zone.js@0.13.0)
-      '@ngrx/store': 15.3.0(@angular/core@16.0.0)(rxjs@7.8.0)
+      '@ngrx/store': 16.0.0(@angular/core@16.0.0)(rxjs@7.8.0)
       rxjs: 7.8.0
       tslib: 2.5.0
     dev: false
 
-  /@ngrx/entity@15.3.0(@angular/core@16.0.0)(@ngrx/store@15.3.0)(rxjs@7.8.0):
-    resolution: {integrity: sha512-EUBRBNuwEl2tQ8CzOocEevqK7GTiAidsYuv6GJiEbtofFK1oqpEZuVlfMSyrRvtRZgTFBYKJOT3LN7CD2ggNyQ==}
+  /@ngrx/entity@16.0.0(@angular/core@16.0.0)(@ngrx/store@16.0.0)(rxjs@7.8.0):
+    resolution: {integrity: sha512-9y5gAtIL/MiiNtZMjzIy5lncvqnX1B3auobNPGPqTwaXMo7y0VQAsp9qCmR0/Z1L32AsAnawKJLYf9wv/q4NBQ==}
     peerDependencies:
-      '@angular/core': ^15.0.0
-      '@ngrx/store': 15.3.0
+      '@angular/core': ^16.0.0
+      '@ngrx/store': 16.0.0
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
       '@angular/core': 16.0.0(rxjs@7.8.0)(zone.js@0.13.0)
-      '@ngrx/store': 15.3.0(@angular/core@16.0.0)(rxjs@7.8.0)
+      '@ngrx/store': 16.0.0(@angular/core@16.0.0)(rxjs@7.8.0)
       rxjs: 7.8.0
       tslib: 2.5.0
     dev: false
 
-  /@ngrx/eslint-plugin@15.3.0(eslint@8.34.0)(typescript@5.1.3):
-    resolution: {integrity: sha512-lYELIGQOBbE9Jgo4bpX1UNahqnW5oEU9IbjqsdPZ+7ybHwnL5QzWIUusYnfJee/+chvEsEMhkXsgqEQENjMOdQ==}
+  /@ngrx/eslint-plugin@16.0.0(eslint@8.34.0)(typescript@5.1.3):
+    resolution: {integrity: sha512-cu18JoHP31V40ToErTvrsjHYN0sBT0kS3zMga9LwQD9nC8+LRWyQA5/p3/BDoNEXFjEk5OLbUj5yp8a/3tR9XQ==}
     peerDependencies:
       eslint: '>=8.0.0'
       typescript: '>=4.4.0'
@@ -2688,32 +2688,32 @@ packages:
       '@typescript-eslint/experimental-utils': 5.52.0(eslint@8.34.0)(typescript@5.1.3)
       eslint: 8.34.0
       eslint-etc: 5.2.0(eslint@8.34.0)(typescript@5.1.3)
-      semver: 7.3.8
+      semver: 7.5.1
       strip-json-comments: 3.1.1
       typescript: 5.1.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@ngrx/schematics@15.3.0:
-    resolution: {integrity: sha512-vpw2lo2pJYCD4J/GSYNl7aUST9ns2uyE5W+XeFDXTi0JlqSBKwOK89THQZiESsJM8N77yvmT0f83DLTz/YQK/w==}
+  /@ngrx/schematics@16.0.0:
+    resolution: {integrity: sha512-gp4r54uxtYdZlf83NH9ONbY4U5OgmcIx+WSbJx3YNpwRJAYORykM0r6CtrsrPjgXRvi9aAeQ5QzwFpI26BHDcA==}
     dev: true
 
-  /@ngrx/store-devtools@15.3.0(@ngrx/store@15.3.0)(rxjs@7.8.0):
-    resolution: {integrity: sha512-o39T11T994j5XzwiNquhRHVQiFYlOg1PJWmV++LdIaXD0zYovc9lzNDnZJy04mt9XPTDPu8QmcmzV44zUtY4vg==}
+  /@ngrx/store-devtools@16.0.0(@ngrx/store@16.0.0)(rxjs@7.8.0):
+    resolution: {integrity: sha512-20+jv+k6W3PM6gohiYaUXiEv9U0fFLMZJb7c7ARRsu1vWICC59dW77OPMhoVrqDLoMgr4gMikw/BwfceSLxCJA==}
     peerDependencies:
-      '@ngrx/store': 15.3.0
+      '@ngrx/store': 16.0.0
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
-      '@ngrx/store': 15.3.0(@angular/core@16.0.0)(rxjs@7.8.0)
+      '@ngrx/store': 16.0.0(@angular/core@16.0.0)(rxjs@7.8.0)
       rxjs: 7.8.0
       tslib: 2.5.0
     dev: true
 
-  /@ngrx/store@15.3.0(@angular/core@16.0.0)(rxjs@7.8.0):
-    resolution: {integrity: sha512-8cd0zWkOZ3TedDQHyOzUxZD1HHa0fU8fgzVX/2eIq6wmnleUxHVOKSJvA+DdE4GRoryFqVhAp17L1r5eC2QYHA==}
+  /@ngrx/store@16.0.0(@angular/core@16.0.0)(rxjs@7.8.0):
+    resolution: {integrity: sha512-bmr0KLITh9u1DJO51USTc4OAKX+su06efhTdNiQV/wagifpbC4kA8zr2hdstKMNG3Z5EKTX3XLFanIiREkd6JQ==}
     peerDependencies:
-      '@angular/core': ^15.0.0
+      '@angular/core': ^16.0.0
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
       '@angular/core': 16.0.0(rxjs@7.8.0)(zone.js@0.13.0)
@@ -2771,7 +2771,7 @@ packages:
     resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.4.0
+      semver: 7.5.1
     dev: true
 
   /@npmcli/git@4.0.3:
@@ -3336,7 +3336,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.1
       tsutils: 3.21.0(typescript@5.1.3)
       typescript: 5.1.3
     transitivePeerDependencies:
@@ -3357,7 +3357,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.1
       tsutils: 3.21.0(typescript@5.1.3)
       typescript: 5.1.3
     transitivePeerDependencies:
@@ -3378,7 +3378,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.1
       tsutils: 3.21.0(typescript@5.1.3)
       typescript: 5.1.3
     transitivePeerDependencies:
@@ -3399,7 +3399,7 @@ packages:
       eslint: 8.34.0
       eslint-scope: 5.1.1
       eslint-utils: 3.0.0(eslint@8.34.0)
-      semver: 7.3.8
+      semver: 7.5.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3419,7 +3419,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.59.7(typescript@5.1.3)
       eslint: 8.34.0
       eslint-scope: 5.1.1
-      semver: 7.3.8
+      semver: 7.5.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3439,7 +3439,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.61.0(typescript@5.1.3)
       eslint: 8.34.0
       eslint-scope: 5.1.1
-      semver: 7.3.8
+      semver: 7.5.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -4613,7 +4613,7 @@ packages:
       postcss-modules-scope: 3.0.0(postcss@8.4.23)
       postcss-modules-values: 4.0.0(postcss@8.4.23)
       postcss-value-parser: 4.2.0
-      semver: 7.4.0
+      semver: 7.5.1
       webpack: 5.80.0(esbuild@0.17.18)
     dev: true
 
@@ -7381,7 +7381,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.11.0
-      semver: 7.3.8
+      semver: 7.5.1
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -7917,7 +7917,7 @@ packages:
       cosmiconfig-typescript-loader: 4.3.0(@types/node@18.13.0)(cosmiconfig@8.2.0)(ts-node@10.9.1)(typescript@5.1.3)
       klona: 2.0.6
       postcss: 8.4.23
-      semver: 7.4.0
+      semver: 7.5.1
       ts-node: 10.9.1(@types/node@18.13.0)(typescript@5.1.3)
       typescript: 5.1.3
       webpack: 5.80.0(esbuild@0.17.18)
@@ -9203,7 +9203,7 @@ packages:
       '@types/yargs': 17.0.22
       tsutils: 3.21.0(typescript@5.1.3)
       typescript: 5.1.3
-      yargs: 17.6.2
+      yargs: 17.7.2
     dev: true
 
   /tsutils@3.21.0(typescript@5.1.3):
