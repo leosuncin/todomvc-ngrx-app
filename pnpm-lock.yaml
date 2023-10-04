@@ -98,8 +98,8 @@ devDependencies:
     specifier: ^16.0.0
     version: 16.0.0(@ngrx/store@16.0.0)(rxjs@7.8.0)
   '@types/jasmine':
-    specifier: ~4.3.0
-    version: 4.3.1
+    specifier: ~4.6.0
+    version: 4.6.0
   '@typescript-eslint/eslint-plugin':
     specifier: 6.7.4
     version: 6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.34.0)(typescript@5.2.2)
@@ -3120,8 +3120,8 @@ packages:
       '@types/node': 18.13.0
     dev: true
 
-  /@types/jasmine@4.3.1:
-    resolution: {integrity: sha512-Vu8l+UGcshYmV1VWwULgnV/2RDbBaO6i2Ptx7nd//oJPIZGhoI1YLST4VKagD2Pq/Bc2/7zvtvhM7F3p4SN7kQ==}
+  /@types/jasmine@4.6.0:
+    resolution: {integrity: sha512-+EzFP5Pu2g8LA5gZkllYUuGfN0c7rbne+4k4aqM9BJYeoBq2YltrewvG412Wte+L52/4rmIM9ffudZO2JM27mQ==}
     dev: true
 
   /@types/json-schema@7.0.12:
