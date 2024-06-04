@@ -55,7 +55,7 @@ importers:
         version: 1.0.5
       tslib:
         specifier: ^2.3.0
-        version: 2.6.2
+        version: 2.6.3
       zone.js:
         specifier: ~0.14.0
         version: 0.14.6
@@ -4653,8 +4653,8 @@ packages:
   tslib@2.6.1:
     resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
 
-  tslib@2.6.2:
-    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+  tslib@2.6.3:
+    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
   tsutils-etc@1.4.2:
     resolution: {integrity: sha512-2Dn5SxTDOu6YWDNKcx1xu2YUy6PUeKrWZB/x2cQ8vY2+iz3JRembKn/iZ0JLT1ZudGNwQQvtFX9AwvRHbXuPUg==}
@@ -5245,7 +5245,7 @@ snapshots:
   '@angular/animations@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))':
     dependencies:
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@angular/cli@16.2.14(chokidar@3.5.3)':
     dependencies:
@@ -5276,7 +5276,7 @@ snapshots:
     dependencies:
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@angular/compiler-cli@16.2.12(@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(typescript@5.4.5)':
     dependencies:
@@ -5287,7 +5287,7 @@ snapshots:
       convert-source-map: 1.9.0
       reflect-metadata: 0.1.14
       semver: 7.6.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       typescript: 5.4.5
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -5295,14 +5295,14 @@ snapshots:
 
   '@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))':
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.6.3
     optionalDependencies:
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
 
   '@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)':
     dependencies:
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
       zone.js: 0.14.6
 
   '@angular/forms@16.2.12(@angular/common@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(@angular/platform-browser@16.2.12(@angular/animations@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(@angular/common@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(rxjs@7.8.1)':
@@ -5311,7 +5311,7 @@ snapshots:
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
       '@angular/platform-browser': 16.2.12(@angular/animations@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(@angular/common@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@angular/platform-browser-dynamic@16.2.12(@angular/common@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(@angular/platform-browser@16.2.12(@angular/animations@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(@angular/common@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))':
     dependencies:
@@ -5319,13 +5319,13 @@ snapshots:
       '@angular/compiler': 16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
       '@angular/platform-browser': 16.2.12(@angular/animations@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(@angular/common@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@angular/platform-browser@16.2.12(@angular/animations@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(@angular/common@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))':
     dependencies:
       '@angular/common': 16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1)
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
-      tslib: 2.6.2
+      tslib: 2.6.3
     optionalDependencies:
       '@angular/animations': 16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))
 
@@ -5335,7 +5335,7 @@ snapshots:
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
       '@angular/platform-browser': 16.2.12(@angular/animations@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(@angular/common@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@assemblyscript/loader@0.10.1': {}
 
@@ -6466,21 +6466,21 @@ snapshots:
       '@angular/common': 16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1)
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@ngrx/effects@16.3.0(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(@ngrx/store@16.3.0(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(rxjs@7.8.1)':
     dependencies:
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
       '@ngrx/store': 16.3.0(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1)
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@ngrx/entity@16.3.0(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(@ngrx/store@16.3.0(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1))(rxjs@7.8.1)':
     dependencies:
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
       '@ngrx/store': 16.3.0(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1)
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@ngrx/eslint-plugin@16.3.0(eslint@9.4.0)(typescript@5.4.5)':
     dependencies:
@@ -6499,13 +6499,13 @@ snapshots:
     dependencies:
       '@ngrx/store': 16.3.0(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1)
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@ngrx/store@16.3.0(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6))(rxjs@7.8.1)':
     dependencies:
       '@angular/core': 16.2.12(rxjs@7.8.1)(zone.js@0.14.6)
       rxjs: 7.8.1
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@ngtools/webpack@16.2.14(@angular/compiler-cli@16.2.12(@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.14.6)))(typescript@5.4.5))(typescript@5.4.5)(webpack@5.88.2(esbuild@0.18.17))':
     dependencies:
@@ -6583,7 +6583,7 @@ snapshots:
   '@nrwl/tao@19.1.1':
     dependencies:
       nx: 19.1.1
-      tslib: 2.6.2
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -6599,7 +6599,7 @@ snapshots:
       nx: 19.1.1
       semver: 7.6.2
       tmp: 0.2.3
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs-parser: 21.1.1
 
   '@nx/nx-darwin-arm64@19.1.1':
@@ -7043,7 +7043,7 @@ snapshots:
       chalk: 4.1.2
       jsdom: 16.7.0
       object-path: 0.11.8
-      tslib: 2.6.2
+      tslib: 2.6.3
       typescript: 5.4.5
     transitivePeerDependencies:
       - bufferutil
@@ -7060,7 +7060,7 @@ snapshots:
   '@yarnpkg/parsers@3.0.0-rc.46':
     dependencies:
       js-yaml: 3.14.1
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@zkochan/js-yaml@0.0.7':
     dependencies:
@@ -8860,7 +8860,7 @@ snapshots:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
-      tslib: 2.6.2
+      tslib: 2.6.3
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.11
@@ -9334,7 +9334,7 @@ snapshots:
       tar-stream: 2.2.0
       tmp: 0.2.3
       tsconfig-paths: 4.2.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       yargs: 17.7.2
       yargs-parser: 21.1.1
     optionalDependencies:
@@ -9786,7 +9786,7 @@ snapshots:
 
   rxjs@7.8.1:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   safe-buffer@5.1.2: {}
 
@@ -10262,7 +10262,7 @@ snapshots:
 
   tslib@2.6.1: {}
 
-  tslib@2.6.2: {}
+  tslib@2.6.3: {}
 
   tsutils-etc@1.4.2(tsutils@3.21.0(typescript@5.4.5))(typescript@5.4.5):
     dependencies:
