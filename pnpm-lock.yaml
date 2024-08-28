@@ -62,7 +62,7 @@ importers:
     devDependencies:
       '@angular-devkit/build-angular':
         specifier: ^16.0.0
-        version: 16.2.14(@angular/compiler-cli@16.2.12(@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.1.0)(karma@6.4.4)(typescript@5.5.4)
+        version: 16.2.14(@angular/compiler-cli@16.2.12(@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.5.1)(karma@6.4.4)(typescript@5.5.4)
       '@angular-eslint/builder':
         specifier: 18.3.0
         version: 18.3.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
@@ -86,10 +86,10 @@ importers:
         version: 16.2.12(@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4)
       '@commitlint/cli':
         specifier: ^19.0.0
-        version: 19.4.0(@types/node@22.1.0)(typescript@5.5.4)
+        version: 19.4.0(@types/node@22.5.1)(typescript@5.5.4)
       '@commitlint/config-conventional':
         specifier: ^19.0.0
-        version: 19.2.2
+        version: 19.4.1
       '@ngrx/eslint-plugin':
         specifier: ^16.0.0
         version: 16.3.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4)
@@ -994,8 +994,8 @@ packages:
     engines: {node: '>=v18'}
     hasBin: true
 
-  '@commitlint/config-conventional@19.2.2':
-    resolution: {integrity: sha512-mLXjsxUVLYEGgzbxbxicGPggDuyWNkf25Ht23owXIH+zV2pv1eJuzLK3t1gDY5Gp6pxdE60jZnWUY5cvgL3ufw==}
+  '@commitlint/config-conventional@19.4.1':
+    resolution: {integrity: sha512-D5S5T7ilI5roybWGc8X35OBlRXLAwuTseH1ro0XgqkOWrhZU8yOwBOslrNmSDlTXhXLq8cnfhQyC42qaUCzlXA==}
     engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.0.3':
@@ -1466,8 +1466,8 @@ packages:
   '@types/node@22.0.0':
     resolution: {integrity: sha512-VT7KSYudcPOzP5Q0wfbowyNLaVR8QWUdw+088uFWwfvpY6uCWaXpqV6ieLAu9WBcnTa7H4Z5RLK8I5t2FuOcqw==}
 
-  '@types/node@22.1.0':
-    resolution: {integrity: sha512-AOmuRF0R2/5j1knA3c6G3HOk523Ga+l+ZXltX8SF1+5oqcXijjfTd8fY3XRZqSihEu9XhtQnKYLmkFaoxgsJHw==}
+  '@types/node@22.5.1':
+    resolution: {integrity: sha512-KkHsxej0j9IW1KKOOAA/XBA0z08UFSrRQHErzEfA3Vgq57eXIMYboIlHJuYIfd+lwCQjtKqUu3UnmKbtUc9yRw==}
 
   '@types/qs@6.9.14':
     resolution: {integrity: sha512-5khscbd3SwWMhFqylJBLQ0zIu7c1K6Vz0uBIt915BI3zV0q1nfjRQD3RqSBcPaO6PHEF4ov/t9y89fSiyThlPA==}
@@ -4522,8 +4522,8 @@ packages:
   undici-types@6.11.1:
     resolution: {integrity: sha512-mIDEX2ek50x0OlRgxryxsenE5XaQD4on5U2inY7RApK3SOJpofyw7uW2AyfMKkhAxXIceo2DeWGVGwyvng1GNQ==}
 
-  undici-types@6.13.0:
-    resolution: {integrity: sha512-xtFJHudx8S2DSoujjMd1WeWvn7KKWFRESZTMeL1RptAYERu29D6jphMjjY+vn96jvN3kVPDNxU/E13VTaXj6jg==}
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
   unicode-canonical-property-names-ecmascript@2.0.0:
     resolution: {integrity: sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==}
@@ -4881,7 +4881,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@angular-devkit/build-angular@16.2.14(@angular/compiler-cli@16.2.12(@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.1.0)(karma@6.4.4)(typescript@5.5.4)':
+  '@angular-devkit/build-angular@16.2.14(@angular/compiler-cli@16.2.12(@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(@types/node@22.5.1)(karma@6.4.4)(typescript@5.5.4)':
     dependencies:
       '@ampproject/remapping': 2.2.1
       '@angular-devkit/architect': 0.1602.14(chokidar@3.5.3)
@@ -4900,7 +4900,7 @@ snapshots:
       '@babel/template': 7.22.5
       '@discoveryjs/json-ext': 0.5.7
       '@ngtools/webpack': 16.2.14(@angular/compiler-cli@16.2.12(@angular/compiler@16.2.12(@angular/core@16.2.12(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.5.4))(typescript@5.5.4)(webpack@5.88.2(esbuild@0.18.17))
-      '@vitejs/plugin-basic-ssl': 1.0.1(vite@4.5.3(@types/node@22.1.0)(less@4.1.3)(sass@1.64.1)(terser@5.19.2))
+      '@vitejs/plugin-basic-ssl': 1.0.1(vite@4.5.3(@types/node@22.5.1)(less@4.1.3)(sass@1.64.1)(terser@5.19.2))
       ansi-colors: 4.1.3
       autoprefixer: 10.4.14(postcss@8.4.31)
       babel-loader: 9.1.3(@babel/core@7.22.9)(webpack@5.88.2(esbuild@0.18.17))
@@ -4943,7 +4943,7 @@ snapshots:
       tree-kill: 1.2.2
       tslib: 2.6.1
       typescript: 5.5.4
-      vite: 4.5.3(@types/node@22.1.0)(less@4.1.3)(sass@1.64.1)(terser@5.19.2)
+      vite: 4.5.3(@types/node@22.5.1)(less@4.1.3)(sass@1.64.1)(terser@5.19.2)
       webpack: 5.88.2(esbuild@0.18.17)
       webpack-dev-middleware: 6.1.2(webpack@5.88.2(esbuild@0.18.17))
       webpack-dev-server: 4.15.1(webpack@5.88.2)
@@ -6021,11 +6021,11 @@ snapshots:
 
   '@colors/colors@1.5.0': {}
 
-  '@commitlint/cli@19.4.0(@types/node@22.1.0)(typescript@5.5.4)':
+  '@commitlint/cli@19.4.0(@types/node@22.5.1)(typescript@5.5.4)':
     dependencies:
       '@commitlint/format': 19.3.0
       '@commitlint/lint': 19.2.2
-      '@commitlint/load': 19.4.0(@types/node@22.1.0)(typescript@5.5.4)
+      '@commitlint/load': 19.4.0(@types/node@22.5.1)(typescript@5.5.4)
       '@commitlint/read': 19.4.0
       '@commitlint/types': 19.0.3
       execa: 8.0.1
@@ -6034,7 +6034,7 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@commitlint/config-conventional@19.2.2':
+  '@commitlint/config-conventional@19.4.1':
     dependencies:
       '@commitlint/types': 19.0.3
       conventional-changelog-conventionalcommits: 7.0.2
@@ -6072,7 +6072,7 @@ snapshots:
       '@commitlint/rules': 19.0.3
       '@commitlint/types': 19.0.3
 
-  '@commitlint/load@19.4.0(@types/node@22.1.0)(typescript@5.5.4)':
+  '@commitlint/load@19.4.0(@types/node@22.5.1)(typescript@5.5.4)':
     dependencies:
       '@commitlint/config-validator': 19.0.3
       '@commitlint/execute-rule': 19.0.0
@@ -6080,7 +6080,7 @@ snapshots:
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
       cosmiconfig: 9.0.0(typescript@5.5.4)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@22.1.0)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@22.5.1)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -6443,7 +6443,7 @@ snapshots:
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 22.0.0
+      '@types/node': 22.5.1
 
   '@types/bonjour@3.5.13':
     dependencies:
@@ -6456,11 +6456,11 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 22.0.0
+      '@types/node': 22.5.1
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 22.1.0
+      '@types/node': 22.5.1
 
   '@types/cookie@0.4.1': {}
 
@@ -6482,7 +6482,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.0':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 22.5.1
       '@types/qs': 6.9.14
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -6498,7 +6498,7 @@ snapshots:
 
   '@types/http-proxy@1.17.14':
     dependencies:
-      '@types/node': 22.0.0
+      '@types/node': 22.5.1
 
   '@types/jasmine@5.1.4': {}
 
@@ -6518,9 +6518,9 @@ snapshots:
     dependencies:
       undici-types: 6.11.1
 
-  '@types/node@22.1.0':
+  '@types/node@22.5.1':
     dependencies:
-      undici-types: 6.13.0
+      undici-types: 6.19.8
 
   '@types/qs@6.9.14': {}
 
@@ -6689,9 +6689,9 @@ snapshots:
       '@typescript-eslint/types': 8.3.0
       eslint-visitor-keys: 3.4.3
 
-  '@vitejs/plugin-basic-ssl@1.0.1(vite@4.5.3(@types/node@22.1.0)(less@4.1.3)(sass@1.64.1)(terser@5.19.2))':
+  '@vitejs/plugin-basic-ssl@1.0.1(vite@4.5.3(@types/node@22.5.1)(less@4.1.3)(sass@1.64.1)(terser@5.19.2))':
     dependencies:
-      vite: 4.5.3(@types/node@22.1.0)(less@4.1.3)(sass@1.64.1)(terser@5.19.2)
+      vite: 4.5.3(@types/node@22.5.1)(less@4.1.3)(sass@1.64.1)(terser@5.19.2)
 
   '@webassemblyjs/ast@1.12.1':
     dependencies:
@@ -7321,9 +7321,9 @@ snapshots:
       object-assign: 4.1.1
       vary: 1.1.2
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@22.1.0)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@22.5.1)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
-      '@types/node': 22.1.0
+      '@types/node': 22.5.1
       cosmiconfig: 9.0.0(typescript@5.5.4)
       jiti: 1.21.6
       typescript: 5.5.4
@@ -8364,7 +8364,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.0.0
+      '@types/node': 22.5.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -9895,7 +9895,7 @@ snapshots:
 
   undici-types@6.11.1: {}
 
-  undici-types@6.13.0: {}
+  undici-types@6.19.8: {}
 
   unicode-canonical-property-names-ecmascript@2.0.0: {}
 
@@ -9964,13 +9964,13 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@4.5.3(@types/node@22.1.0)(less@4.1.3)(sass@1.64.1)(terser@5.19.2):
+  vite@4.5.3(@types/node@22.5.1)(less@4.1.3)(sass@1.64.1)(terser@5.19.2):
     dependencies:
       esbuild: 0.18.17
       postcss: 8.4.31
       rollup: 3.29.4
     optionalDependencies:
-      '@types/node': 22.1.0
+      '@types/node': 22.5.1
       fsevents: 2.3.3
       less: 4.1.3
       sass: 1.64.1
