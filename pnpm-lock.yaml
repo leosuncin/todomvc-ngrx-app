@@ -101,7 +101,7 @@ importers:
         version: 16.3.0(@ngrx/store@16.3.0(@angular/core@16.2.12(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(rxjs@7.8.2)
       '@types/jasmine':
         specifier: ~5.1.0
-        version: 5.1.10
+        version: 5.1.11
       '@typescript-eslint/eslint-plugin':
         specifier: 8.46.1
         version: 8.46.1(@typescript-eslint/parser@8.46.1(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3))(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3)
@@ -1544,8 +1544,8 @@ packages:
   '@types/http-proxy@1.17.15':
     resolution: {integrity: sha512-25g5atgiVNTIv0LBDTg1H74Hvayx0ajtJPLLcYE3whFv75J0pWNtOBzaXJQgDTmrX1bx5U9YC2w/n65BN1HwRQ==}
 
-  '@types/jasmine@5.1.10':
-    resolution: {integrity: sha512-ctILpOSFD58PTyGwr400GadefIHPqdWQ8VlZI9D65USOWR/aIw8dkDAw17KPCu/Wn+e+r9BWpPtmuB5T/pP8ng==}
+  '@types/jasmine@5.1.11':
+    resolution: {integrity: sha512-eAij9lMAsosuA8cvRcqw7p2vO+LUraktQDmOUFx2jAnya8NUchr3DryHksfhZbRzU83vzNUSZhlk1cFdoePxwA==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -6805,7 +6805,7 @@ snapshots:
     dependencies:
       '@types/node': 22.5.5
 
-  '@types/jasmine@5.1.10': {}
+  '@types/jasmine@5.1.11': {}
 
   '@types/json-schema@7.0.15': {}
 
