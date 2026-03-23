@@ -46,7 +46,7 @@
     "@ngrx/store-devtools": "^16.0.0",
     "@types/jasmine": "~6.0.0",
     "@typescript-eslint/eslint-plugin": "8.57.2",
-    "@typescript-eslint/parser": "8.57.1",
+    "@typescript-eslint/parser": "8.57.2",
     "eslint": "^10.0.0",
     "husky": "^9.0.0",
     "jasmine-core": "~6.1.0",
